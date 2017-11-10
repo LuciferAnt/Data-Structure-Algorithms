@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1510297221 source:/home/ecnugis/Code/Git/Data-Structure-Algorithms/DataStructure/main.cpp
+	<iostream>
+	"List.h"
+
+1510297277 /home/ecnugis/Code/Git/Data-Structure-Algorithms/DataStructure/List.h
+	<iostream>
+
