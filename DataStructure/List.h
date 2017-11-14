@@ -5,9 +5,9 @@
 
 using namespace std;
 
-struct Node;
+struct ListNode;
 typedef int ElementType;
-typedef struct Node *PtrToNode;
+typedef struct ListNode *PtrToNode;
 typedef PtrToNode List;
 typedef PtrToNode Position;
 
@@ -23,13 +23,13 @@ Position Header(List L);
 Position First(List L);
 void Print(List L);
 
-struct Node{
+struct ListNode{
     ElementType Element;
     Position Next;
 };
 
 List CreateList(){
-    Position P = new Node;
+    Position P = new ListNode;
     P->Next = nullptr;
     return P;
 }
@@ -69,7 +69,7 @@ Position FindPrevious(ElementType X, List L){
 }
 
 void Insert(ElementType X, List L, Position P){
-    Position tmpCell = new Node;
+    Position tmpCell = new ListNode;
     tmpCell->Element = X;
     tmpCell->Next = P->Next;
     P->Next = tmpCell;
