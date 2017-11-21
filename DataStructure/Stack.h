@@ -86,6 +86,6 @@ void Print(Stack S){
         cout << P->Element << "->";
         P = P->Next;
     }
-    cout << "nullptr" << endl;
+    cout << endl;
 }
 #endif // STACK_H

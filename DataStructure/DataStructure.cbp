@@ -32,10 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="List.cpp">
+		<Unit filename="List.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="List.h">
+		<Unit filename="Queue.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="Stack.h">

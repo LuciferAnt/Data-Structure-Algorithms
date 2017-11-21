@@ -1,6 +1,7 @@
 #include <iostream>
-
-#include "Stack.h"
+// #include "List.h"
+// #include "Stack.h"
+#include "StackArray.h"
 
 using namespace std;
 
@@ -20,7 +21,7 @@ int main()
     */
 
     // test Stack
-    Stack S = CreateStack();
+    Stack S = CreateStack(1);
     Push(5, S);
     Push(6, S);
     Push(1, S);
@@ -28,6 +29,5 @@ int main()
     cout << Pop(S) << endl;
     Print(S);
     DisposeStack(S);
-    Print(S);
     return 0;
 }
