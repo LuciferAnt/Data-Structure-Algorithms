@@ -38,7 +38,13 @@
 		<Unit filename="Queue.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="QueueArray.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="Stack.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="StackArray.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="main.cpp" />

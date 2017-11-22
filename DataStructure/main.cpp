@@ -1,7 +1,9 @@
 #include <iostream>
 // #include "List.h"
 // #include "Stack.h"
-#include "StackArray.h"
+// #include "StackArray.h"
+// #include "QueueArray.h"
+#include "Queue.h"
 
 using namespace std;
 
@@ -21,6 +23,7 @@ int main()
     */
 
     // test Stack
+    /*
     Stack S = CreateStack(1);
     Push(5, S);
     Push(6, S);
@@ -29,5 +32,20 @@ int main()
     cout << Pop(S) << endl;
     Print(S);
     DisposeStack(S);
+    */
+
+    // test Queue
+    Queue Q = CreateQueue();
+    Enqueue(1, Q);
+    Enqueue(2, Q);
+    Enqueue(5, Q);
+    Print(Q);
+    cout << Dequeue(Q) << endl;
+    Print(Q);
+    Enqueue(4, Q);
+    Enqueue(5, Q);
+    Print(Q);
+    DisposeQueue(Q);
+    Print(Q);
     return 0;
 }
