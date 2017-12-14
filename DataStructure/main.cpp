@@ -3,9 +3,11 @@
 // #include "Stack.h"
 // #include "StackArray.h"
 // #include "QueueArray.h"
-#include "Queue.h"
+// #include "Queue.h"
+#include "Tree.h"
 
 using namespace std;
+using namespace BinarySearchTree;
 
 int main()
 {
@@ -35,6 +37,7 @@ int main()
     */
 
     // test Queue
+    /*
     Queue Q = CreateQueue();
     Enqueue(1, Q);
     Enqueue(2, Q);
@@ -47,5 +50,30 @@ int main()
     Print(Q);
     DisposeQueue(Q);
     Print(Q);
+    */
+
+    // test Binary Search Tree
+
+    SearchTree T = CreateTree();
+    T = Insert(6, T);
+    T = Insert(2, T);
+    T = Insert(1, T);
+    T = Insert(4, T);
+    T = Insert(8, T);
+    T = Insert(3, T);
+    T = Insert(5, T);
+    //T = Delete(5, T);
+    //T = Delete(4, T);
+    //cout << FindMin(T)->Element << " " << FindMax(T)->Element << endl;
+    //cout << Find(2, T)->Element << endl;
+    PreOrderTraverse(T);
+    cout << endl;
+    InOrderTraverse(T);
+    cout << endl;
+    PostOrderTraverse(T);
+    cout << endl;
+    LevelTraverse(T);
+    cout << endl;
+
     return 0;
 }
