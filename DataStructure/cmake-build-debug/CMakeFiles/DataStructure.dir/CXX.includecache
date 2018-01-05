@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/Code/Git/Data-Structure-Algorithms/DataStructure/Tree.h
-iostream
--
-queue
--
+E:/Code/Git/Data-Structure-Algorithms/DataStructure/LeftHeap.h
 
 E:/Code/Git/Data-Structure-Algorithms/DataStructure/main.cpp
 iostream
 -
-Tree.h
-E:/Code/Git/Data-Structure-Algorithms/DataStructure/Tree.h
+LeftHeap.h
+E:/Code/Git/Data-Structure-Algorithms/DataStructure/LeftHeap.h
 

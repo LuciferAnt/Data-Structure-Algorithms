@@ -80,6 +80,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Code/Git/Data-Structure-Algorithms/DataStructure/AVLTree.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="E:/Code/Git/Data-Structure-Algorithms/DataStructure/BinHeap.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="E:/Code/Git/Data-Structure-Algorithms/DataStructure/BinQueue.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="E:/Code/Git/Data-Structure-Algorithms/DataStructure/HashQuad.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="E:/Code/Git/Data-Structure-Algorithms/DataStructure/HashSep.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="E:/Code/Git/Data-Structure-Algorithms/DataStructure/LeftHeap.h">
+			<Option target="DataStructure"/>
+		</Unit>
 		<Unit filename="E:/Code/Git/Data-Structure-Algorithms/DataStructure/Tree.h">
 			<Option target="DataStructure"/>
 		</Unit>
