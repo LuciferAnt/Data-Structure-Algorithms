@@ -9,7 +9,8 @@
 // #include "HashSep.h"
 // #include "HashQuad.h"
 // #include "BinHeap.h"
-#include "LeftHeap.h"
+// #include "LeftHeap.h"
+#include "Sort.h"
 
 using namespace std;
 //using namespace BinarySearchTree;
@@ -18,7 +19,7 @@ using namespace std;
 //using namespace HashSep;
 //using namespace HashQuad;
 //using namespace BinHeap;
-using namespace LeftHeap;
+// using namespace LeftHeap;
 
 int main()
 {
@@ -133,6 +134,7 @@ int main()
     */
 
     // Test LeftHeap
+    /*
     PriorityQueue H = Initialize();
     H = Insert(3, H);
     H = Insert(10, H);
@@ -141,6 +143,16 @@ int main()
     H = Insert(23, H);
     H = DeleteMin(H);
     cout << FindMin(H) << endl;
+    */
+
+    // Test sort
+    int A[] = {34, 8, 64, 51, 32, 21};
+    HeapSort(A, 6);
+    Print(A, 6);
+
+
+
+
 
     return 0;
 }

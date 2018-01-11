@@ -32,10 +32,28 @@
 - [x] [数组实现队列QueueArray](https://github.com/plantree/Data-Structure-Algorithms/blob/master/DataStructure/QueueArray.h)
 
 ## 2. 树
-- [x] [二叉查找树]()
-- [x] [AVL树]()
+- [x] [二叉查找树](https://github.com/plantree/Data-Structure-Algorithms/blob/master/DataStructure/Tree.h)
+- [x] [AVL树](https://github.com/plantree/Data-Structure-Algorithms/blob/master/DataStructure/AVLTree.h)
 - [ ] [伸展树]()
 - [ ] [B树]()
 
 ## 3.散列
+- [x] [分离链接法](https://github.com/plantree/Data-Structure-Algorithms/blob/master/DataStructure/HashSep.h)
+- [x] [开放定址-平方探测法](https://github.com/plantree/Data-Structure-Algorithms/blob/master/DataStructure/HashQuad.h)
 
+## 4.优先队列（堆）
+- [x] [最小堆](https://github.com/plantree/Data-Structure-Algorithms/blob/master/DataStructure/BinHeap.h)
+- [x] [二叉堆](https://github.com/plantree/Data-Structure-Algorithms/blob/master/DataStructure/BinQueue.h)
+
+## 5.排序
+- [x] [插入排序](https://github.com/plantree/Data-Structure-Algorithms/blob/master/DataStructure/Sort.h)
+- [x] [冒泡排序](https://github.com/plantree/Data-Structure-Algorithms/blob/master/DataStructure/Sort.h)
+- [x] [选择排序](https://github.com/plantree/Data-Structure-Algorithms/blob/master/DataStructure/Sort.h)
+- [x] [希尔排序](https://github.com/plantree/Data-Structure-Algorithms/blob/master/DataStructure/Sort.h)
+- [x] [堆排序](https://github.com/plantree/Data-Structure-Algorithms/blob/master/DataStructure/Sort.h)
+- [x] [归并排序](https://github.com/plantree/Data-Structure-Algorithms/blob/master/DataStructure/Sort.h)
+- [x] [快速排序](https://github.com/plantree/Data-Structure-Algorithms/blob/master/DataStructure/Sort.h)
+## 6.不相交集
+- [x] [不相交集](https://github.com/plantree/Data-Structure-Algorithms/blob/master/DataStructure/DisjSet.h)
+
+## 7.图论

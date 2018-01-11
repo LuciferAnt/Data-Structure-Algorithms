@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-E:/Code/Git/Data-Structure-Algorithms/DataStructure/LeftHeap.h
+E:/Code/Git/Data-Structure-Algorithms/DataStructure/Sort.h
+iostream
+-
 
 E:/Code/Git/Data-Structure-Algorithms/DataStructure/main.cpp
 iostream
 -
-LeftHeap.h
-E:/Code/Git/Data-Structure-Algorithms/DataStructure/LeftHeap.h
+Sort.h
+E:/Code/Git/Data-Structure-Algorithms/DataStructure/Sort.h
 
